@@ -11,21 +11,17 @@ public class Position {
 		this.collumn = collumn;
 	}
 
-
 	public int getRow() {
 		return row;
 	}
-
 
 	public void setRow(int row) {
 		this.row = row;
 	}
 
-
 	public int getCollumn() {
 		return collumn;
 	}
-
 
 	public void setCollumn(int collumn) {
 		this.collumn = collumn;
@@ -35,7 +31,5 @@ public class Position {
 	public String toString() {
 		return row + ", " + collumn;
 	}
-	
-	
 	
 }
